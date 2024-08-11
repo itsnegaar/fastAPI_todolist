@@ -1,7 +1,7 @@
 def individual_serial(todo) -> dict:
     return {
         "id": str(todo["_id"]),
-        'name': str(todo["name"]),
+        'title': str(todo["title"]),
         'description': str(todo["description"]),
         'created_at': str(todo["created_at"]),
         'done': str(todo["done"]),
